@@ -243,4 +243,71 @@ body {
             .side-categories li{
                 margin-bottom: 10px;
             }
+         .latest-post{
+             margin-bottom: 10px;
+             overflow: hidden;
+         }
+         .latest-post img{
+             border: 3px solid #e7e7e7;
+             margin-right: 15px;
+             vertical-align: middle;
+         }
+.footer-info-wrapper{
+    width:100%;
+    background: #f0f0f0;
+    padding: 30px 0;
+}
+    .footer-info-main{
+        overflow: hidden;
+        width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+        .footer-info{
+            width: 30%;
+            float: left;
+            margin-right: 4%;
+            font-size: 13px;
+        }
+            .footer-info:last-child{
+                float: right;
+                margin-right: 0;
+                width: 31%;
+            }
+        .footer-info h3{
+            color: #01b2bf;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom:  10px;
+        }
+        .footer-info p{
 
+            color: #373737;
+            line-height: 2;
+            margin-bottom: 15px;
+        }
+        .footer-info ul li a{
+            line-height: 2;
+
+            color: #373737;
+        }
+        .footer-info p a{
+            color: #eb4900;
+        }
+.footer-copyright{
+    width: 960px;
+    padding: 20px 15px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 12px;
+    color: #373737;
+}
+    .footer-copyright a{
+        color: #eb4900;
+    }
+    .copy{
+        float: left;
+    }
+    .by-st{
+        float: right;
+    }
